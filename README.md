@@ -9,9 +9,18 @@
 4. run server by `node index.js`
 5. Hit these APIs:
 
+URLS Exposed:
+
+`
 GET http:localhost:3000/users
+`
+
+`
 POST http:localhost:3000/users {name: 'Jonathan', email: 'jona@gmail.com'}
+`
 
 or
 
- curl --data "name=Ela22ine&email=elain44e@example.com" http://localhost:3000/users
+`
+curl --data "name=Ela22ine&email=elain44e@example.com" http://localhost:3000/users
+`
