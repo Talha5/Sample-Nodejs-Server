@@ -19,7 +19,7 @@ GET http:localhost:3000/users
 POST http:localhost:3000/users {name: 'Jonathan', email: 'jona@gmail.com'}
 `
 
-or
+or use curl to hit API
 
 `
 curl --data "name=Ela22ine&email=elain44e@example.com" http://localhost:3000/users
